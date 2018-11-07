@@ -1,0 +1,95 @@
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+	padding: 12rem 0 7rem;
+	text-align: center;
+}
+
+/* Greater than 550 */
+
+@media (min-width: 550px) {
+	.section {
+		padding: 12rem 0 12rem;
+	}
+}
+
+/* Greater than 750 */
+
+@media (min-width: 750px) {
+	.section {
+		padding: 14rem 0 12rem;
+	}
+}
+
+/* Greater than 1000 */
+
+@media (min-width: 1000px) {
+	.section {
+		padding: 20rem 0 12rem;
+	}
+}
+
+.intro {
+	background-color:#FFFFFF;
+	background-image: url(../images/glasses.png);
+	background-repeat:no-repeat;
+	background-position: 50% 10%;
+	color:#464C59;
+	font-family: 'Oswald', sans-serif;
+}
+
+.bio {
+	background-color:#64B3DF;
+	font-family: 'Oswald', sans-serif;
+	text-align:left;
+}
+
+.experience {
+	background:#464C59;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	text-align:left;
+}
+
+.contact {
+	background:#FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	text-align:left;
+}
+
+.contact a {
+	display:block;
+	width:8rem;
+	height:8rem;
+}
+
+
+a.twitter {
+	background: url(../images/svg-grey/twitter.svg) no-repeat ;
+}
+
+a.twitter:hover {
+	background: url(../images/svg-orange/twitter.svg) no-repeat ;
+}
+
+a.linkedin {
+	background: url(../images/svg-grey/linkedin.svg) no-repeat ;
+}
+
+a.linkedin:hover {
+	background: url(../images/svg-orange/linkedin.svg) no-repeat ;
+}
+
+a.facebook {
+	background: url(../images/svg-grey/facebook-square.svg) no-repeat ;
+}
+
+a.facebook:hover {
+	background: url(../images/svg-orange/facebook-square.svg) no-repeat ;
+}
+
+.contact p { text-align:center;}
+.contact ul {list-style: none; margin:0 auto;}
+.contact li {float:left; margin:0 0 0 5%; padding: 0 0 0 0}
